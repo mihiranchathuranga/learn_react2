@@ -4,12 +4,12 @@ import './App.css';
 
 class App extends Component {
   render() {
-     /*return (
+     return (
        <div className="App">
          <h1>Hi,I am a react App</h1>
        </div>
-     );*/
-     return ( React.createElement('div',{className:'App'},React.createElement('h1',null,'Hello')));
+     );
+    // return ( React.createElement('div',{className:'App'},React.createElement('h1',null,'Hello')));
   } 
 }
 
