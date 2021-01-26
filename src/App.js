@@ -13,6 +13,18 @@ const app = props => {
       otherState: 'some other value'
     }
   );
+
+  const switchNameHandler = () =>{
+    //console.log('Was clicked');
+    //this.state.persons[0].name = 'Mihiran'; do not use this
+    this.setState({
+      persons: [
+        { name: 'Upul' , age: 28},
+        { name: 'Pasan' , age: 27},
+        { name: 'Madhu', age: 25}
+      ]
+    });
+  };
        return (
        <div className="App">
          <h1>Hi,I am a react App</h1>
@@ -29,6 +41,20 @@ const app = props => {
 }
 
 export default app;
+
+
+/*const switchNameHandler = () =>{
+  //console.log('Was clicked');
+  //this.state.persons[0].name = 'Mihiran'; do not use this
+  this.setState({
+    persons: [
+      { name: 'Upul' , age: 28},
+      { name: 'Pasan' , age: 27},
+      { name: 'Madhu', age: 25}
+    ]
+  });
+};*/
+
 
 
 
