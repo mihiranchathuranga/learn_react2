@@ -11,3 +11,5 @@ const person = (props) =>{
 }
 
 export default person;
+
+//variables should warp this way -> {props.age} 
